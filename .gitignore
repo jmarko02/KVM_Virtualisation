@@ -1,0 +1,35 @@
+# Ignore build artifacts
+*.o
+*.img
+*.out
+*.exe
+*.bin
+*.elf
+
+# Ignore all files in build directory
+/guests/build/*
+
+# Ignore temporary files created by the editor
+*.swp
+*.swo
+*~
+*.tmp
+.vscode/
+
+# Ignore generated files from the editor
+*.log
+*.bak
+*.save
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Makefile and project specific build files
+Makefile
+
+# Ignore compiled guest files
+guest*.img
+
+# Ignore specific configuration or environment files
+*.env
